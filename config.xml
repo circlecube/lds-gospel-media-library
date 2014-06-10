@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+    <widget xmlns = "http://www.w3.org/ns/widgets"
+        xmlns:gap = "http://phonegap.com/ns/1.0"
+        id        = "com.circlecube.ldsgospelmedialibrary"
+        versionCode="001" 
+        version   = "0.0.1">
+
+    <name>LDS Gospel Media Library</name>
+
+    <description>Collection of art from the LDS Media Kit. </description>
+
+    <author href="http://circlecube.com" email="evan@circlecube.com">
+        Evan Mullins
+    </author>
+    <gap:plugin name="com.adobe.plugins.gaplugin" />
+    <gap:platform name="android" />
+    <gap:platform name="ios" />
+    <preference name="phonegap-version" value="3.3.0" />
+    <icon src="icon-large.png" />
+    <gap:splash src="splash.png" />
+    <preference name="orientation" value="default" />
+    <preference name="fullscreen" value="true" />
+    <preference name="permissions" value="none"/>
+</widget>
